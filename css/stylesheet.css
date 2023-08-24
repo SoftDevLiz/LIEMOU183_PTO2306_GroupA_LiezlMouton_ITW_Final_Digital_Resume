@@ -48,7 +48,7 @@
   font-size: 50px;
 }
 
-#git-logo {
+#hero-git {
   margin-bottom: 50px;
   width: 70px;
   height: 70px;
@@ -68,7 +68,7 @@
   }
 }
 
-#git-logo:hover {
+#hero-git:hover {
   animation-name: twirlygit;
   animation-duration: 5s;
   animation-iteration-count: infinite;
@@ -156,29 +156,29 @@
 .socials-grid-container {
   display: grid;
   grid-template-columns: repeat(15, 1fr);
-  border: 1px solid black;
+  margin-bottom: 50px;
+  align-items: center;
   text-align: center;
 }
 
 .socials-grid-item-1 {
   grid-area: 1 / 7 / 1 / 8;
-  border: 1px solid black;
 }
 
 .socials-grid-item-2 {
   grid-area: 1 / 8 / 1 / 9;
-  border: 1px solid black;
 }
 
 .socials-grid-item-3 {
   grid-area: 1 / 9 / 1 / 10;
-  border: 1px solid black;
 }
 
 .logo-sizing {
   width: 70px;
   height: 70px;
 }
+
+/* ANIMATIONS */
 
 @keyframes twirlygit {
   0% {
@@ -241,7 +241,7 @@
 }
 
 #email-addy {
-  font-family: "Courier Prime", monospace;
+  font-family: "Indie Flower", cursive;
   text-align: center;
 }
 
@@ -270,6 +270,10 @@ textarea {
   margin-bottom: 15px;
   margin-top: 5px;
   font-size: 16px;
+}
+
+input[type="submit"] {
+  margin-bottom: 20px;
 }
 
 /* FOOTER BG IMAGE */
