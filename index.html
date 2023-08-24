@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./stylesheet.css" />
+    <link rel="stylesheet" href="css/stylesheet.css">
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,7 +31,7 @@
           <img src="https://i.postimg.cc/T1J38sD0/git.png" id="git-logo"
         />
       </a>
-        <p id="contact-btn">Contact</p>
+        <p class="button">Contact</p>
       </div>
     </section>
   </header>
@@ -128,41 +128,33 @@
 <h2 id="email-addy">liz.mouton1@gmail.com</h2>
 <!-- Contact Form -->
 
-
-
   </body>
 
- 
     <h2 class="section-header">Alternatively...</h2>
-    <div class="form-grid">
-      <form
-        action="https://formsubmit.co/liz.mouton1@gmail.com"
-        method="POST"
-      >
+    <section id="bg-img">
 
-        <label  for="name" id="form-item" >Name</label>
-        <input
-          type="text"
-          id="name"
-          placeholder="What would you like to be called?" required/>
-
-        <label for="subject">Subject</label>
-
-        <select name="subject" required >
-          <option value="General">General</option>
-          <option value="Work">Work/hire</option>
-          <option value="CV">Portfolio</option>
-        </select>
-
-        <label for="email" >Email</label>
-        <input type="email" id="email" required  />
-
-        <textarea
-          cols="50"
-          rows="7"
-          placeholder="Type your message here"></textarea>
+      <div class="form-grid">
+        <form action="https://formsubmit.co/liz.mouton1@gmail.com" method="POST">
+          <label for="user-name" id="form-item">Name</label>
+          <input type="text" id="user-name" name="user-name" required />
       
-      </form>
-    </div>
+          <label for="subject" id="form-item">Subject</label>
+          <select name="subject" required>
+            <option value="General">General</option>
+            <option value="Work">Work/hire</option>
+            <option value="CV">Portfolio</option>
+          </select>
+      
+          <label for="email" id="form-item">Email</label>
+          <input type="email" id="email" name="email" required />
+      
+          <label for="message" id="form-item">Message</label>
+          <textarea cols="50" rows="7" placeholder="Type your message here" name="message"></textarea>
+          
+          <input type="submit" value="Submit" class="button" />
+        </form>
+      </div>
+      
+  </section>
   </footer>
 </html>
