@@ -97,18 +97,18 @@
 }
 
 .skills-flexbox-container {
-  display: flex; /* Displays children elements in a flex layout */
+  display: flex;
 }
 
 .skills-flexbox-item {
-  flex: 1; /* Distributes available space equally among boxes */
-
+  flex: 1;
   padding: 20px;
   text-align: center;
   font-family: "DM Sans", sans-serif;
 }
 
 /* Resume Section */
+
 .resume-flexbox-container {
   display: flex;
   flex-direction: row;
@@ -121,26 +121,47 @@
   font-size: 40px;
 }
 
+.article-sub-heading {
+  color: rgb(56, 56, 255);
+}
+
 .left-column {
   flex: 1;
-  background-color: lightgray;
   padding: 20px;
 }
 
 .upper-right-subcolumn {
   flex: 1;
-  background-color: rgb(56, 56, 255);
+  background-image: radial-gradient(
+    circle,
+    #3838ff,
+    #b300d5,
+    #e400a9,
+    #fa0080,
+    #ff315f,
+    #ff595c,
+    #ff765e,
+    #ff8f66,
+    #ffa482,
+    #ffb89f,
+    #fecdbc,
+    #f9e1d9
+  );
+  background-clip: text;
+  -webkit-background-clip: text; /* For Safari/WebKit browsers */
+  color: transparent;
   padding: 20px;
-  text-align: center;
   font-size: 50px;
-  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 #small-text {
-  font-size: 12px;
+  font-size: 20px;
   margin-top: -70px;
   margin-bottom: 20px;
-  text-align: center;
   font-family: "Indie Flower", cursive;
 }
 
@@ -298,16 +319,16 @@ input[type="submit"] {
 
 /* BACK TO TOP BUTTON */
 .btt-img {
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
 }
 
 button {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   position: fixed;
-  right: 20px;
-  bottom: 20px;
+  right: 30px;
+  bottom: 30px;
   background: none;
   border: none;
 }
