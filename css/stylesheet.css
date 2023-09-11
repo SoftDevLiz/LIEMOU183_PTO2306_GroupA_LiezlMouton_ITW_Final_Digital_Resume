@@ -1,4 +1,4 @@
-/* Hero Section */
+/* HERO GRID */
 
 #hero-grid {
   display: grid;
@@ -8,7 +8,7 @@
   background-image: url(https://i.postimg.cc/JhCR4Z4Q/photo-1461749280684-dccba630e2f6.jpg);
 }
 
-/* Everything on the left */
+/* LEFT GRID ITEM */
 
 #grid-item-left {
   grid-area: 1 / 2 / 1 / 3;
@@ -38,7 +38,7 @@
   padding: 5px;
 }
 
-/* Everything on the right */
+/* RIGHT GRID ITEM */
 
 #grid-item-right {
   grid-area: 1 / 3 / 1 / 4;
@@ -98,7 +98,7 @@
   color: white;
 }
 
-/* Hero responsive design for 1440px */
+/* Hero responsiveness for 1440px */
 
 @media (max-width: 1440px) {
   #hero-grid {
@@ -220,7 +220,7 @@
   }
 }
 
-/* Skills Section */
+/* SKILLS SECTION */
 
 .section-header {
   font-family: "DM Sans", sans-serif;
@@ -251,7 +251,7 @@
   }
 }
 
-/* Resume Section */
+/* RESUME SECTION */
 
 .resume-flexbox-container {
   display: flex;
@@ -274,7 +274,7 @@
   padding: 20px;
 }
 
-.upper-right-subcolumn {
+.upper-right-sub-column {
   flex: 1;
   background-image: radial-gradient(
     circle,
@@ -355,7 +355,7 @@
   }
 }
 
-/* Socials Section */
+/* SOCIALS / FOOTER SECTION */
 
 .socials-grid-container {
   display: grid;
@@ -382,7 +382,7 @@
   height: 70px;
 }
 
-/* ANIMATIONS */
+/* Animations */
 
 @keyframes twirlygit {
   0% {
@@ -489,7 +489,7 @@
   text-align: center;
 }
 
-/* Email responsivenesss for 425px */
+/* Email responsiveness for 425px */
 
 @media (max-width: 425px) {
   #email-addy {
